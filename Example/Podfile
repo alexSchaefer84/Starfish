@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Starfish_Example' do
+  pod 'Starfish', :path => '../'
+
+  target 'Starfish_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
